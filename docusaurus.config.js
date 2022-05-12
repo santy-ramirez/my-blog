@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   deploymentBranch:'gh-pages',
   trailingSlash: false,
+  organizationName: 'santy-ramirez'
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
