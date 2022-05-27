@@ -33,3 +33,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+h2{
+font-size: 1.5rem !important;
+}
+@media(max-width:500px ){
+  h2{
+    font-size: 1.3rem!important;
+  }
+}
