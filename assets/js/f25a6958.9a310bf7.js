@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[761],{6332:function(e){e.exports=JSON.parse('{"label":"web-developer","permalink":"/blog/tags/web-developer","allTagsPath":"/blog/tags","count":1}')}}]);
