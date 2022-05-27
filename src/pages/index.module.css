@@ -25,4 +25,8 @@
   border-radius: 180px;
   max-width: 150px;
   max-height: 150px;
+  background-color:#7384bc;
+}
+h2{
+  color: var(--ifm-color-primary);
 }

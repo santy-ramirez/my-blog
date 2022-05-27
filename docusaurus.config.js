@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Santiago Ramirez',
-  tagline: 'hi, mi nombre es santiago ramirez,soy desarrollador web.En mis tiempos libres escribos post y soluciones de problemas que se me van presentando a medida que voy desarrollando proyectos',
+  tagline: 'Hi,Bienvenido a mi blog personal,en este blog encontraras  posts de recursos de programacion y soluciones de problemas que se me van presentando a medida que voy desarrollando proyectos, que los hago en mi tiempo libre .',
   url: 'https://blog.santidev.com.ar',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   deploymentBranch:'gh-pages',
   trailingSlash: false,
   organizationName: 'santy-ramirez',

@@ -12,16 +12,17 @@ import DocusaurusImageUrl from '@site/static/img/avatar.jpg';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+    <header className={clsx('hero ', styles.heroBanner)}>
+       <div className="container">
      <img className={styles.avatar} src={DocusaurusImageUrl} />
         <h1 className="hero__title">{siteConfig.title}</h1>
+        <h2>Desarrollador Web</h2>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/blog">
-            ver blogs
+            Ver Blogs
           </Link>
         </div>
       </div>
@@ -37,7 +38,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-       
+      
       </main>
     </Layout>
   );
