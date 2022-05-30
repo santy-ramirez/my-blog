@@ -16,7 +16,7 @@ function HomepageHeader() {
        <div className="container">
      <img className={styles.avatar} src={DocusaurusImageUrl} />
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <h2>Desarrollador Web</h2>
+        <h2 className="hero__subtitulo">Desarrollador Web</h2>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link

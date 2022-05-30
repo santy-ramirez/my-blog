@@ -41,3 +41,15 @@ font-size: 1.5rem !important;
     font-size: 1.3rem!important;
   }
 }
+.hero__subtitulo{
+  color: #7384bc;
+  font-size: 2rem !important;
+}
+.hero__subtitle{
+  text-align: left;
+}
+.margin-bottom--xl{
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.37); 
+box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.37);
+padding: 1.5rem;
+}

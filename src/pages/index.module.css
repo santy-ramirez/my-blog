@@ -27,6 +27,7 @@
   max-height: 150px;
   background-color:#7384bc;
 }
-h2{
-  color: var(--ifm-color-primary);
+.hero__titulo{
+  color: var(--ifm-color-primary)!important;
+  font-size: 3rem !important;
 }
