@@ -2,7 +2,7 @@
 slug: domnio-personalizado-nic.ar-git-pages
 title: Domnio personalizado con nic.ar y git-pages
 authors: [santy]
-tags: [web-developer,dominio-personalizado]
+tags: [soluciones]
 ---
 
 # Dominio personalizado con nic.ar -github pages

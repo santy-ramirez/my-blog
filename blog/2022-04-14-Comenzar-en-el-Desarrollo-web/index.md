@@ -1,7 +1,7 @@
 ---
 
 authors: santy
-tags: [Tech, Web Dev]
+tags: [recursos]
 ---
 
 # Comenzar en el desarrollo web
@@ -32,4 +32,4 @@ Un desarrollador Back end debe tener amplios conocimientos de los siguientes l
 Por otro lado, un desarrollador Full Stack, es el encargado de manejar cada uno de los aspectos relacionados con la creación y el mantenimiento de una aplicación web. Para ello es fundamental que el desarrollador Full Stack tenga conocimientos en desarrollo Front-End y Back-End 
 además de manejar diferentes sistemas operativos y lenguajes de programación.
 
-Sabiendo esto unos de los recursos que nos puede ayudar en esta situación es <a href="https://roadmap.sh">roadmap.sh</a>, un sitio web que se actualiza constantemente, donde podemos encontrar el camino a seguir y loa herramientas y habilidades que debemos de  aprender para convertirnos en un desarrollador web.
+Sabiendo esto unos de los recursos que nos puede ayudar en esta situación es <a href="https://roadmap.sh">roadmap.sh</a>, un sitio web que se actualiza constantemente, donde podemos encontrar el camino a seguir y las herramientas y habilidades que debemos de  aprender para convertirnos en un desarrollador web.

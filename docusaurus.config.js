@@ -35,6 +35,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        googleAnalytics: {
+          trackingID: 'G-SDN8CW1SP7',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -68,6 +72,10 @@ const config = {
         items: [
           
           {to: '/blog', label: 'Blogs', position: 'left'},
+          {to: 'blog/tags/soluciones', label: 'soluciones', position: 'left'},
+          {to: 'blog/tags/recursos', label: 'recursos', position: 'left'},
+
+
           {
             href: 'https://github.com/santy-ramirez',
             label: 'GitHub',

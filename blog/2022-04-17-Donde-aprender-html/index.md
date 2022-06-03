@@ -2,7 +2,7 @@
 slug: paginas-web-para-aprender-html
 title: Paginas web para aprender html
 authors: [santy]
-tags: [Tech, Web Dev]
+tags: [recursos]
 ---
 # Paginas web para aprender html
 
