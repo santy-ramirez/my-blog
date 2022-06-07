@@ -1,8 +1,8 @@
 {
-    "name": "I CAN MAKE THIS WORK",
-    "short_name": "I CAN MAKE THIS WORK",
-    "theme_color": "#3578e5",
-    "background_color": "#424242",
+    "name": "santiago Ramirez",
+    "short_name": "my blog- santiago ramirez",
+    "theme_color": "#7370bc",
+    "background_color": "#7384bc",
     "display": "standalone",
     "scope": "./",
     "start_url": "./index.html",
