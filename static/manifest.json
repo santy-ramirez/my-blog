@@ -1,0 +1,27 @@
+{
+  "name": "Santi ",
+  "short_name": "blog",
+  "theme_color": "#7384bc",
+  "background_color": "#04060a",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://santidev.com.ar/manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "img/icon/Frame192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon/Frame512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

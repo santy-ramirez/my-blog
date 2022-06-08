@@ -30,6 +30,26 @@ const config = {
     locales: ['en'],
   },
 
+
+  stylesheets: [
+    // String format.
+   
+    // Object format.
+    
+  ],
+
+  scripts: [
+    // String format.
+ 
+    // Object format.
+    {
+      src :"https://kit.fontawesome.com/54c602822e.js",
+      crossorigin:"anonymous",
+      async: true,
+    },
+  ],
+
+
   presets: [
     [
       'classic',
@@ -39,19 +59,22 @@ const config = {
           trackingID: 'G-SDN8CW1SP7',
           anonymizeIP: true,
         },
+        gtag: {
+          trackingID: 'G-SDN8CW1SP7',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
+          
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         ' https://github.com/santy-ramirez/my-blog/edit/main/'
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,9 +83,80 @@ const config = {
     ],
   ],
 
+  
+
+
+
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#7384bc',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#7384bc',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/logo.png',
+            color: '#7384bc',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/logo.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#7384bc',
+          },
+        ],
+      },
+    ],
+  ],
+
+   
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      metadata: [{ name: 'robots', content: 'max-image-preview:large' }, {property:"og:image", content:"https://github.com/santy-ramirez/assets/blob/main/branding/blog.png"} ],
+
       navbar: {
         title: '',
         logo: {
@@ -101,10 +195,11 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/santy__dev',
-              },
+                           },
               {
                 label: 'Instagram',
                 href: 'https://istagram.com/santy_dev',
+                
               },
               {
                 label: 'Medium',
