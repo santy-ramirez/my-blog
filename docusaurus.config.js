@@ -63,6 +63,14 @@ const config = {
           trackingID: 'G-SDN8CW1SP7',
           anonymizeIP: true,
         },
+
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           
