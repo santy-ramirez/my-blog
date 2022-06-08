@@ -1,5 +1,5 @@
 {
-  "name": "my-blog-santiago ",
+  "name": "Santi ",
   "short_name": "blog",
   "theme_color": "#7384bc",
   "background_color": "#04060a",
@@ -14,12 +14,12 @@
   ],
   "icons": [
     {
-      "src": "img/icon/frame192.png",
+      "src": "img/icon/Frame192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "img/icon/frame512.png",
+      "src": "img/icon/Frame512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
