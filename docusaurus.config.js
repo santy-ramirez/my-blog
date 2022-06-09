@@ -163,7 +163,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
 
-      metadata: [{ name: 'robots', content: 'max-image-preview:large' }, {property:"og:image", content:"https://github.com/santy-ramirez/assets/blob/main/branding/blog.png"} ],
+      metadata: [{ name: 'robots', content: 'max-image-preview:large' }, {property: "og:image", content: "img/blog.png"} ],
 
       navbar: {
         title: '',
