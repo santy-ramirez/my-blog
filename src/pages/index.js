@@ -5,6 +5,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 //import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
+
 import DocusaurusImageUrl from '@site/static/img/avatar.jpg';
 
 
@@ -12,7 +14,9 @@ import DocusaurusImageUrl from '@site/static/img/avatar.jpg';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero ', styles.heroBanner)}>
+      
+    
+     <header className={clsx('hero ', styles.heroBanner)}>
        <div className="container">
      <img className={styles.avatar} src={DocusaurusImageUrl} />
         <h1 className="hero__title">{siteConfig.title}</h1>
@@ -28,6 +32,8 @@ function HomepageHeader() {
         </div>
       </div>
     </header>
+   
+ 
   );
 }
 

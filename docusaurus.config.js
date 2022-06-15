@@ -133,6 +133,11 @@ const config = {
             content: '#7384bc',
           },
           {
+            tagName: 'meta',
+            property: 'og:image',
+            content: 'img/blog.png',
+          },
+          {
             tagName: 'link',
             rel: 'apple-touch-icon',
             href: '/img/logo.png',
@@ -163,7 +168,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
 
-      metadata: [{ name: 'robots', content: 'max-image-preview:large' }, {property: "og:image", content: "img/blog.png"} ],
+      metadata: [{ name: 'robots', content: 'max-image-preview:large' } ],
 
       navbar: {
         title: '',
