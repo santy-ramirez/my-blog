@@ -1,6 +1,6 @@
 ---
-slug: domnio-personalizado-nic.ar-git-pages
-title: Domnio personalizado con nic.ar y git-pages
+slug: dominio-personalizado-nic.ar-git-pages
+title: Dominio personalizado con nic.ar y github-pages
 authors: [santy]
 tags: [soluciones]
 ---
