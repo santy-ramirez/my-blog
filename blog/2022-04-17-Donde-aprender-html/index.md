@@ -15,6 +15,10 @@ HTML sus siglas en inglés de **HyperText Markup Language** (lenguaje de marca
 
 ![Untitled](./Untitled.png)
 
-- 2 <a href="https://www.w3schools.com/html/default.asp" >MDN Web Docs</a>:  es el sitio web oficial de Mozilla para la documentación de estándares web aloja muchos documentos sobre diferentestes tecnologías web,como HTML5, JavaScript, CSS, Django, Node.js y mucho mas.
+- 2 <a href="https://developer.mozilla.org/es/docs/Web/HTML" >MDN Web Docs</a>:  es el sitio web oficial de Mozilla para la documentación de estándares web aloja muchos documentos sobre diferentestes tecnologías web,como HTML5, JavaScript, CSS, y mucho mas, exelente si quieres profundizar en html.
 
 ![Untitled](./Untitled1.png)
+
+- 3 <a href="https://html-css-js.com/html/tags/#base" >html-css-js.com</a>:  Cheetseet de tags de html, exelente para consultar cuando olvidas como usar los tags, te muestra una lista con ejemplos de como implimentarlos.
+
+![Untitled](./cheetSeet.png)
