@@ -7,7 +7,7 @@ tags: [recursos]
 # Paginas web para aprender html
 
 
-Para dedicarte al desarrollo web sin duda unas de las primeros recursos que  uno tiene que aprender es html, que es el encargado de darle estructura a nuestras paginas web,¿ Que es html?<!--truncate--> 
+Para dedicarte al desarrollo web sin duda unos de los primeros recursos que  uno tiene que aprender es html, que es el encargado de darle estructura a nuestras paginas web,¿ Que es html?<!--truncate--> 
 
 HTML sus siglas en inglés de **HyperText Markup Language** (lenguaje de marcado de hipertexto), hace referencia al lenguaje de marcado  para la elaboración de páginas web , es el encargado de presentar los datos en nuestra web es a continuacion dejo algunas paginas donde podemos podemos profundizar en el aprendizaje conocer los diferentes etiquetas y propiedades:
 
