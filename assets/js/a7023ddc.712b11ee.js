@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[713],{3457:function(s){s.exports=JSON.parse('[{"label":"soluciones","permalink":"/blog/tags/soluciones","count":1},{"label":"recursos","permalink":"/blog/tags/recursos","count":2}]')}}]);
