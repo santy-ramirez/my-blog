@@ -7,7 +7,7 @@ tags: [soluciones]
 
 # Instalar Eslint y prettier para react
 
-EsLint analiza estéticamente código para encontrar problemas rápidamente,Las reglas en este son configurables ,es dicir, se pueden definir por uno mismo o equipo, para que todos estén en la misma soncronia <!--truncate-->, para que ayude a avisarle cuando detecte errores de sintaxis, código incorrecto, malas prácticas.Prettier es un formateador de código, que se puede definir unas reglas para formatear tu código automáticamente después de guardarlo.
+EsLint analiza estéticamente tu código para encontrar problemas rápidamente,sus reglas son configurables ,es dicir, se pueden definir por uno mismo o equipo, para que todos estén en la misma soncronia <!--truncate-->, te ayuda a detectar errores de sintaxis, código incorrecto, malas prácticas.Sin Embargo prettier es un formateador de código, que puedes definir reglas pero para formatear tu código automáticamente después de guardarlo.
 :::info
 
 - Eslint es un linter
@@ -26,25 +26,25 @@ npm i -D eslint
 yarn add -D eslint
 ```
 
-Configuración de eslint: la forma mas fácil de configurar es con el siguiente comando que nos ejecutara un script, donde nos preguntara como queremos configurarlo:
+Configuración de eslint: la forma mas fácil de configurar es con el siguiente comando que nos ejecutará un script, donde nos preguntará como queremos configurarlo:
 
 ```jsx
 npm init @eslint/config || npx eslint --init
 ```
 
-1_Primero nos preguntara como queremos usar Eslint, si solo para revisar la sintaxis, encontrar problemas o forzar un estilo del código.en mi caso elijo siempre la tercera opción: encontrar problemas o forzar un estilo del código
+1_Primero nos preguntara como queremos usar Eslint, si solo para revisar la sintaxis, encontrar problemas o forzar un estilo de código.en mi caso elijo siempre la tercera opción: encontrar problemas o forzar un estilo del código
 
-2_después nos preguntará si queremos utilizar que tipo de modulo javascript queremos utilizar (import o export). generalmente en backend se suele utilizar `require` y en frontend `import`.Elijimos import
+2_después nos preguntará que tipo de modulo javascript queremos utilizar (import o export). generalmente en backend se suele utilizar `require` y en frontend `import`.Elijimos import.
 
-3_Seguimos con seleccionar el Framework que utilizaremos en nuestro proyecto, si **React**, **VueJs** o **Vanilla Javascript. selecionamos react**
+3_Seguimos con seleccionar el Framework que utilizaremos en nuestro proyecto, si **React**, **VueJs** o **Vanilla Javascript**. selecionamos react
 
 4_También podemos seleccionar si queremos o estamos utilizando TypeScript, en este caso no voy a utilizar typeScript
 
 5_seleccionar el tipo de **Enviroment** o **Entorno** para la ejecución de nuestro proyecto si en el Navegador o entorno de NodeJs, Seleccionamos browser
 
-6\_ Una parte importante.Podemos utilizar una guía de estilo (generalmente elijo el standard para ahorrarme muchos problemas)ya definida, inspeccionar nuestros archivos JavaScript, etc.
+6\_ Una parte importante es que podemos utilizar una guía de estilo (generalmente elijo el standard para ahorrarme muchos problemas)ya definida, para inspeccionar nuestros archivos JavaScript, etc.
 
-7_Y por ultimo Seleccionaremos el formato que queremos utilizar para nuestro archivo de configuración.Esto es basado en gustos o preferencias de cada proyecto, en este caso utilizaremos **JSON** pero cualquier otro formato funciona de la misma manera.Seleccionamos json.
+7_Y por ultimo Seleccionaremos el formato que queremos utilizar para nuestro archivo de configuración, en este caso utilizaremos **JSON** pero cualquier otro formato funciona de la misma manera.
 
 Nos debería quedar de la siguiente manera:
 
@@ -74,7 +74,7 @@ found 0 vulnerabilities
 Successfully created .eslintrc.json file in /home/santiago/Documentos/proyectos/react/demoEslint
 ```
 
-Como configurar las reglas: vamos al archivo de configuración de eslint y nos dirigimos a la sección de relus(como se muestra en la imagen), donde podemos definir nuestras reglas con el siguiente formato:
+Como configurar las reglas: vamos al archivo de configuración de eslint y nos dirigimos a la sección de relus(como se muestra en la seccion de abajo), donde podemos definir nuestras reglas con el siguiente formato:
 
 ```jsx
 relus:{
