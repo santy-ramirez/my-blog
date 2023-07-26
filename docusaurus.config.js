@@ -45,6 +45,11 @@ const config = {
       crossorigin: "anonymous",
       async: true,
     },
+    {
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467593326194844",
+      crossorigin: "anonymous",
+      async: true,
+    },
   ],
 
   presets: [
