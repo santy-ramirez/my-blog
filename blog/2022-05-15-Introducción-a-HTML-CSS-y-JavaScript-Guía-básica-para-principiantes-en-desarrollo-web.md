@@ -43,6 +43,7 @@ h1 {
 p {
     font-size: 16px;
 }
+
 ```
 En el ejemplo anterior, hemos definido estilos para el cuerpo del documento (background-color y font-family), el encabezado h1 (color) y los párrafos (font-size). Al guardar este código en un archivo separado con extensión .css y enlazarlo con nuestro documento HTML usando <link> en la sección <head>, los estilos se aplicarán automáticamente a todo el contenido correspondiente.
 
