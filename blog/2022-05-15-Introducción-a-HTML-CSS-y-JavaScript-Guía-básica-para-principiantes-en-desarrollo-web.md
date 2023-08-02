@@ -1,4 +1,7 @@
 ---
+slug: Introducción-a-HTML-CSS-y-JavaScript
+title: Introducción a HTML, CSS y JavaScript 
+authors: [santy]
 ---
 
 # Introducción a HTML, CSS y JavaScript: Guía básica para principiantes en desarrollo web
