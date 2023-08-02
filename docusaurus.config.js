@@ -207,7 +207,7 @@ const config = {
               },
               {
                 label: "Medium",
-                href: "https://medium.com/santyramirez",
+                href: "https://medium.com/@santiaghoramirez",
               },
             ],
           },
