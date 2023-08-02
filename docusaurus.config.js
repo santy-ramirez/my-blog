@@ -27,8 +27,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "es",
+    locales: ["es"],
   },
 
   stylesheets: [
@@ -51,6 +51,8 @@ const config = {
       async: true,
     },
   ],
+
+  themes: ["@docusaurus/theme-live-codeblock"],
 
   presets: [
     [
@@ -228,6 +230,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["powershell", "java"],
       },
     }),
 };
