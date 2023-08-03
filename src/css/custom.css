@@ -5,21 +5,23 @@
  */
 
 /* You can override the default Infima variables here. */
+* {
+  font-size: 18px;
+}
 :root {
   --ifm-color-primary: #7384bc;
-  --ifm-color-primary-dark: #5f72b2 ;
+  --ifm-color-primary-dark: #5f72b2;
   --ifm-color-primary-darker: #5469ad;
   --ifm-color-primary-darkest: #45568f;
   --ifm-color-primary-light: #8796c6;
-  --ifm-color-primary-lighter: #929fcb  ;
+  --ifm-color-primary-lighter: #929fcb;
   --ifm-color-primary-lightest: b0bad9;
   --ifm-code-font-size: 90%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
- 
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #7384bc;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -29,31 +31,53 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.navbar__inner{
-  max-width: 1000px;
+.navbar__inner {
+  max-width: 1200px;
   margin: 0 auto;
 }
-.container{
-  max-width: 1000px !important;
+.container {
+  max-width: 1200px !important;
 }
-h2{
-font-size: 1.5rem !important;
+h2 {
+  font-size: 1.5rem !important;
 }
-@media(max-width:500px ){
-  h2{
-    font-size: 1.3rem!important;
-  }
+@media (max-width: 500px) {
+  /* h2 {
+    font-size: 2rem !important;
+  } */
 }
-.hero__subtitulo{
+.hero__subtitulo {
   color: #7384bc;
   font-size: 2rem !important;
 }
-.hero__subtitle{
+.hero__subtitle {
   text-align: left;
 }
-.margin-bottom--xl{
- 
+.margin-bottom--xl {
   border-bottom: 2px solid;
 
-  border-image:   linear-gradient(to right, #98A4CE 25%, #cf96a3 25%, #cf96a3 50%,#bfdcb7 50%, #bfdcb7 75%, teal 75%) 5;
+  border-image: linear-gradient(
+      to right,
+      #98a4ce 25%,
+      #cf96a3 25%,
+      #cf96a3 50%,
+      #bfdcb7 50%,
+      #bfdcb7 75%,
+      teal 75%
+    )
+    5;
+}
+.li {
+  border-bottom: 2px solid;
+
+  border-image: linear-gradient(
+      to right,
+      #98a4ce 25%,
+      #cf96a3 25%,
+      #cf96a3 50%,
+      #bfdcb7 50%,
+      #bfdcb7 75%,
+      teal 75%
+    )
+    5;
 }
