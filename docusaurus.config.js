@@ -175,6 +175,7 @@ const config = {
           { to: "/blog", label: "Blogs", position: "left" },
           { to: "blog/tags/soluciones", label: "soluciones", position: "left" },
           { to: "blog/tags/recursos", label: "recursos", position: "left" },
+          { to: "docs/introduccion", label: "java", position: "left" },
 
           {
             href: "https://github.com/santy-ramirez",

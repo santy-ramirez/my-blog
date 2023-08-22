@@ -19,4 +19,4 @@ El lenguaje de programación Java es un lenguaje de alto nivel que puede ser car
 - Robusto
 - Seguro
 
-Cada una de las palabras clave anteriores se explica en “The Java Language Environment” , un documento técnico escrito por James Gosling(creador del lenguaje java) y Henry McGilton.
+Cada una de las palabras clave anteriores se explica en[ “The Java Language Environment” ](https://www.oracle.com/java/technologies/language-environment.html), un documento técnico escrito por James Gosling(creador del lenguaje java) y Henry McGilton.
