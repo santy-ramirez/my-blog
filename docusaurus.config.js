@@ -85,6 +85,7 @@ const config = {
           editUrl: " https://github.com/santy-ramirez/my-blog/edit/main/",
         },
         theme: {
+          
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
