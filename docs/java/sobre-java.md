@@ -25,7 +25,7 @@ Cada una de las palabras clave anteriores se explica en[ “The Java Language En
 
 En el lenguaje de programación Java, todo el código fuente se escribe primero en archivos de texto sin formato que tienen la extensión .java. Luego, esos archivos fuente se compilan en archivos .class mediante el compilador javac. Un archivo .class no contiene código nativo de tu procesador; en su lugar, contiene bytecodes, que son el lenguaje de máquina de la Máquina Virtual de Java (Java VM). Luego, la herramienta de inicio de java ejecuta tu aplicación con una instancia de la Máquina Virtual de Java.
 
-![java como funciona grfico](comofuncionajava.png)
+![java como funciona grfico](img/comofuncionajava.png)
 
 Debido a que la Máquina Virtual de Java está disponible en muchos sistemas operativos diferentes, los mismos archivos .class pueden ejecutarse en Microsoft Windows, el Sistema Operativo Solaris™ (Solaris OS), Linux o Mac OS.
 
@@ -38,7 +38,7 @@ public class MiPrograma {
 
 ```
 
-![java en distintos sistemas operativos grafico](OpJava.png)
+![java en distintos sistemas operativos grafico](img/OpJava.png)
 
 # La plataforma de java
 
@@ -52,4 +52,4 @@ La plataforma Java tiene dos componentes:
 La máquina virtual Java; es la base de la plataforma Java y se adapta a  plataformas basadas en hardware(Windows, Linux, Solaris OS y Mac OS).
 
 La API es una gran colección de componentes de software listos para usar que brindan muchas capacidades útiles. Está agrupado en bibliotecas(o librerias) de clases e interfaces relacionadas; estas bibliotecas se conocen como paquetes.
-![java en distintos sistemas operativos grafico](plataformadejava.png)
+![java en distintos sistemas operativos grafico](img/plataformadejava.png)
