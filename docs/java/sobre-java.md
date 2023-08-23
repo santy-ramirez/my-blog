@@ -46,10 +46,10 @@ Una plataforma es el entorno de hardware o software en el que se ejecuta un prog
 
 La plataforma Java tiene dos componentes:
 
-- La máquina virtual de Java
+- La máquina virtual de Java(VM)
 - La interfaz de programación de aplicaciones (API) de Java
 
-La máquina virtual Java; es la base de la plataforma Java y se adapta a  plataformas basadas en hardware(Windows, Linux, Solaris OS y Mac OS).
+La máquina virtual Java(VM); es la base de la plataforma Java y se adapta a  plataformas basadas en hardware(Windows, Linux, Solaris OS y Mac OS).
 
 La API es una gran colección de componentes de software listos para usar que brindan muchas capacidades útiles. Está agrupado en bibliotecas(o librerias) de clases e interfaces relacionadas; estas bibliotecas se conocen como paquetes.
 ![java en distintos sistemas operativos grafico](img/plataformadejava.png)
