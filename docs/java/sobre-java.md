@@ -40,7 +40,7 @@ public class MiPrograma {
 
 ![java en distintos sistemas operativos grafico](img/OpJava.png)
 
-# La plataforma de java
+## La plataforma de java
 
 Una plataforma es el entorno de hardware o software en el que se ejecuta un programa.Algunas de las plataformas más populares son Microsoft Windows, Linux, Solaris OS y Mac OS. La mayoría de las plataformas se pueden describir como una combinación del sistema operativo y el hardware subyacente. La plataforma Java se diferencia de estas, ya  que es una plataforma solo de software que se ejecuta sobre otras plataformas basadas en hardware.
 
