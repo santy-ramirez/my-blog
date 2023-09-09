@@ -18,6 +18,20 @@ Vamos a ver cómo crear el "Hola Mundo" en Java, tanto si estás utilizando un s
 
 Configurar el JDK (Java Development Kit) en Linux es un paso esencial para poder desarrollar aplicaciones Java en tu sistema. A continuación, te proporciono una guía para configurar el JDK en Linux
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467593326194844"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+style={{ display: "block", textAlign: "center" }}
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8467593326194844"
+data-ad-slot="6324259488"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Paso 1: Verificar si el JDK está instalado
 
 Antes de instalar el JDK, es importante verificar si ya está instalado en tu sistema. Abre una terminal y ejecuta el siguiente comando para verificar si Java está instalado:
@@ -44,6 +58,20 @@ Puedes instalar OpenJDK, que es una implementación de código abierto del JDK o
 ```
 sudo apt install openjdk-11-jdk
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8467593326194844"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+style={{ display: "block", textAlign: "center" }}
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-8467593326194844"
+data-ad-slot="6324259488"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Si deseas instalar una versión específica, puedes cambiar el número después de openjdk- (por ejemplo, openjdk-8-jdk).
 
@@ -82,6 +110,11 @@ echo $JAVA_HOME
 Deberías ver la ruta del JDK que configuraste.
 
 ¡Listo! Ahora has configurado el JDK en tu sistema Linux. Puedes comenzar a desarrollar aplicaciones Java en tu entorno de preferencia, ya sea con Visual Studio Code, IntelliJ u otro IDE.
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 </TabItem>
 <TabItem value="windows" label="Windows">
 
