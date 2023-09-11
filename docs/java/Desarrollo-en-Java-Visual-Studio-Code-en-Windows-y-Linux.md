@@ -120,5 +120,56 @@ Deberías ver la ruta del JDK que configuraste.
 
 ## Instalar JDK en windows
 
+### Paso 1: Descargar e Instalar el JDK
+
+Ve al sitio web de [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) o [OpenJDK](https://jdk.java.net/) y descarga la última versión del JDK.
+
+Ejecuta el instalador y sigue los pasos para instalar el JDK en tu sistema. Asegúrate de recordar la ruta de instalación, ya que la necesitarás más adelante.Por ejemplo yo lo guarde en:
+![image](./img/windowsbonos.png)
+
+### Paso 2: Configurar las Variables de Entorno
+
+Busca "Variables de entorno" en el menú de inicio y selecciona "Editar las variables de entorno del sistema".
+
+![image2](./img/windowsimage1.png)
+
+En la ventana de "Propiedades del sistema", haz clic en el botón "Variables de entorno".
+
+![image2](./img/windowsimag2.png)
+
+En la sección "Variables del sistema", selecciona la variable Path y haz clic en "Editar".
+
+Haz clic en "Nuevo" y agrega la ruta al directorio bin de tu instalación del JDK. Por ejemplo, si instalaste el JDK en `C:\Program Files\Java\jdk-17.0.1`, añade` C:\Program Files\Java\jdk-17.0.1\bin`.
+
+![image2](./img/wind.png)
+
+Ahora, crea una nueva variable de entorno llamada `JAVA_HOME` y establece su valor como la ruta a tu instalación del JDK (por ejemplo, `C:\Program Files\Java\jdk-17.0.1)`.
+
+![image2](./img/windowsimg3.png)
+
+Haz clic en ok y luego en "Aceptar" para cerrar todas las ventanas y guardar todas las configuraciones que hiciste.
+
+### Paso 3: Verificar la Instalación
+
+Para verificar si el JDK se ha instalado correctamente, abre una nueva ventana del símbolo del sistema y ejecuta los siguientes comandos:
+
+```
+java -version
+```
+
+Deberías ver la versión de Java que instalaste.
+
+```
+javac -version
+```
+
+Esto debería mostrar la versión del compilador Java.
+
+### Paso 4: Configurar un Entorno de Desarrollo
+
+Ahora que has configurado el JDK, puedes usar un IDE como Visual Studio Code para comenzar a desarrollar aplicaciones Java.
+
+¡Listo! Has configurado el JDK en tu sistema Windows y estás listo para empezar a programar en Java. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en decírmelo. ¡Buena suerte con tus proyectos!
+
 </TabItem>
 </Tabs>
